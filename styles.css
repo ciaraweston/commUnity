@@ -1,0 +1,122 @@
+:root {
+  --lavender: #E6E6FA;
+  --sage: #C1D9C2;
+  --peach: #FFDAB9;
+  --rose: #FADADD;
+  --cream: #FFFDD0;
+  --grey: #EDEDED;
+  --beige: #DAD4D4;
+  --black: #000000;
+  --white: #FFFFFF;
+  --blue: #2E86C1;
+  --purple: #5B2C6F;
+  --periwinkle: #B3B3F1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  margin-top: 0;
+  font-family: 'Poppins', serif;
+  font-size: 1em;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.app-title h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.5rem;
+  color: var(--sage);
+  letter-spacing: 2px;
+}
+
+.slogan {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(black);
+  margin-top: -5px;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: 1000;
+  padding: 2px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  /* pushes content to left and right */
+  align-items: center;
+  padding: 10px 20px;
+  list-style: none;
+  border-bottom: 3px solid var(--sage);
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+  /* this adds space between menu items */
+}
+
+.nav-icon {
+  font-size: 1.5em;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon i {
+  color: var(--sage);
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-links span {
+  padding: 5px 10px;
+  background-color: var(--sage);
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hero {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.app-title {
+  text-align: center;
+  margin-top: 20px;
+}
